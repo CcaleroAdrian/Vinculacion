@@ -2,8 +2,10 @@
 <h3>Datos del Programa</h3>
 
 <div>
-	{{Form::label('descripcion','Descripcion:')}}<br>
-	{{Form::text('descripcion',null,array('placeholder'=>'Titulo del Documento Entregado'))}}<br><br>
+	{{Form::label('descripcion','Descripción:')}}<br>
+	{{Form::text('descripcion',null,array('placeholder'=>'Titulo del Documento Entregado'))}}
+	{{Form::select('descripcion',$documents))}}
+	<br><br>
 </div>
 <div>
 	{{Form::label('fecha','Fecha de Entrega:')}}<br>
