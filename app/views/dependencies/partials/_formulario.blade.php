@@ -1,0 +1,30 @@
+<h1>REGISTRO</h1><br>
+<h3>Dependencias</h3>
+
+<div>
+	{{Form::label('nombre','Nombre:')}}<br>
+	{{Form::text('nombre',null,array('autofocus'))}}<br><br>
+</div>
+<div>
+	{{Form::label('domicilio','Domicilio:')}}<br>
+	{{Form::text('domicilio',null,array('placeholder'=>'Calle,Número,Colonia'))}}<br><br>
+</div>
+<div>
+	{{Form::label('ciudad','Ciudad:')}}<br>
+	{{Form::text('ciudad',null)}}<br><br>
+</div>
+<div>
+	{{Form::label('cp','Cp:')}}<br>
+	{{Form::text('cp',null)}}<br><br>
+</div>
+<div>
+	{{Form::label('responzable','Responzable:')}}<br>
+	{{Form::text('responzable',null,array('placeholder'=>'Nombre del responzable de área'))}}<br><br>
+</div>
+<div>
+	{{Form::label('telefono','Telefono:')}}<br>
+	{{Form::text('telefono',null)}}<br><br><br><br>
+</div>
+<div>
+{{Form::submit('Guardar')}}
+</div>

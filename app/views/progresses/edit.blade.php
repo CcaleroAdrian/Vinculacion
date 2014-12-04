@@ -1,0 +1,1 @@
+/home/jadrian/laravel-demo/app/views/progresses/edit.blade.php
